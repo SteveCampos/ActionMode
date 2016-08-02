@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActionMode</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="books_title_name">Books</string>
+
+    <!--  Action Mode Menu Items -->
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="love">Love</string>
+</resources>

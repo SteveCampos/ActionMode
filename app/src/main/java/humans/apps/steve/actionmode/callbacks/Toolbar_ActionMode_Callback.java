@@ -85,7 +85,7 @@ public class Toolbar_ActionMode_Callback implements ActionMode.Callback {
                 break;
 
         }
-        return false;
+        return true;
     }
 
 
@@ -95,7 +95,7 @@ public class Toolbar_ActionMode_Callback implements ActionMode.Callback {
         //When action mode destroyed remove selected selections and set action mode to null
         //First check current fragment action mode
 
-            recyclerView_adapter.removeSelection();  // remove selection
+            recyclerView_adapter.removeSelection(true);  // remove selection
             Fragment recyclerFragment = new MainActivity().getFragment(0);//Get recycler fragment
             if (recyclerFragment != null){
                 ((BooksFragment) recyclerFragment).setNullToActionMode();//Set action mode null
